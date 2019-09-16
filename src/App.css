@@ -1,0 +1,49 @@
+body {
+  background-color: #77b1a9;
+}
+#quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid black;
+  min-height: 50vh;
+
+}
+ #quote-box {
+  text-align: center;
+  width: 60%;
+  min-height: 50vh;
+  border: 2px solid black;
+  margin: 10% auto;
+  color: #77b1a9;
+  background-color: white;
+}
+
+#text {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3%;
+}
+#text > p:nth-child(2) {
+  align-self: flex-end;
+}
+.btns {
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: space-around;
+  margin: 10% 5%;
+}
+.btns button {
+  padding: 1em;
+  color: #77b1a9;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.btns > .left {
+  /* border: 2px solid black; */
+  min-width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
